@@ -1,5 +1,7 @@
 import {SiOpenaigym} from 'react-icons/si'
-
+import {CgGym } from 'react-icons/cg'
+import {GiGymBag} from 'react-icons/gi'
+import {MdSportsGymnastics} from 'react-icons/md'
 
 
 export const links = [
@@ -45,21 +47,21 @@ export const programs = [
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
+        icon: <MdSportsGymnastics/>,
         title: "Program Two",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/222"
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
+        icon: <GiGymBag/>,
         title: "Program Three",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/333"
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
+        icon: <CgGym />,
         title: "Program Four",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/444"
@@ -82,19 +84,19 @@ export const values = [
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
+        icon: <CgGym />,
         title: "Value Two",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
+        icon: <GiGymBag/>,
         title: "Value Three",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
+        icon: <MdSportsGymnastics />,
         title: "Value Four",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     }
