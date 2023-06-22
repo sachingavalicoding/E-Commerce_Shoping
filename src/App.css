@@ -22,7 +22,7 @@
     --color-gray-600:hsl( var(--gray-hue), 48%,15%);
 
     --container-width-lg:80%;
-    --container-width-mg:90%;
+    --container-width-md:90%;
 
     --transition:all 0.5s ease;
 }
@@ -148,3 +148,32 @@ section{
     display: block;
     font-weight: 300;
 }
+
+
+/*  MEDIA QUERIES (medium and Small) */
+@media screen and  (max-width: 1024px){
+ 
+    .container{
+        width: var(--container-width-md);
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+ 
+}
+@media screen and  (max-width: 600px){
+ 
+    
+
+    h1{
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+   
+ 
+}
+    
